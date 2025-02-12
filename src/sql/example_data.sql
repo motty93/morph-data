@@ -6,10 +6,7 @@
 }}
 
 select
-    Date as data,
-    Source as source,
-    Traffic as traffic,
-    Orders as orders
+    *
 from
     read_csv_auto("./data/Traffic_Orders_Demo_Data.csv")
 where
