@@ -1,0 +1,6 @@
+{
+  "function": {
+    "name": "Test App",
+    "architectures": ["x86_64"]
+  }
+}

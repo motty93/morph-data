@@ -2,6 +2,7 @@
     config(
         name = "example_data",
         connection = "DUCKDB"
+        result_cache_ttl = 3600
     )
 }}
 
